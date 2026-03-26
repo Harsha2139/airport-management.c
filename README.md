@@ -216,14 +216,18 @@ airport management.c
 gcc airport management.c -o project
 
 ✅ Step 3: Run the program
+
 ./project
 2. Running the Program
+
 Once it compiles without errors, you can run the executable:
+
 
 On Linux/macOS:
 
 Bash
 ./airport-management
+
 On Windows:
 
 Bash
