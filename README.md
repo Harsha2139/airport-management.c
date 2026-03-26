@@ -208,17 +208,23 @@ Save your program as:
 airport management.c
 
 ✅ Step 2: Compile the program
+
+
 gcc airport management.c -o project
 
 ✅ Step 3: Run the program
 
 ./project
+
 2. Running the Program
+3. 
 
 Once it compiles without errors, you can run the executable:
 
 
+
 On Linux/macOS:
+
 
 Bash
 ./airport-management
@@ -236,33 +242,3 @@ airport-management.exe
 This project demonstrates how linked lists can be used to efficiently manage dynamic data like flights and passengers. It performs CRUD operations and simulates real-world airport management in a simple and effective way.
 
 
-🛠️ Compilation & Execution
-
-✅ Step 1: Save your file
-
-Save your program as:
-
-airport management.c
-
-✅ Step 2: Compile the program
-gcc airport management.c -o project
-
-✅ Step 3: Run the program
-
-./project
-2. Running the Program
-
-Once it compiles without errors, you can run the executable:
-
-
-On Linux/macOS:
-
-Bash
-./airport-management
-
-
-On Windows:
-
-
-Bash
-airport-management.exe
