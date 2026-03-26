@@ -217,9 +217,9 @@ gcc airport management.c -o project
 ./project
 
 2. Running the Program
-3. 
+   
 
-Once it compiles without errors, you can run the executable:
+3.laasOnce it compiles without errors, you can run the executable:
 
 
 
@@ -227,6 +227,8 @@ On Linux/macOS:
 
 
 Bash
+
+
 ./airport-management
 
 
@@ -234,6 +236,8 @@ On Windows:
 
 
 Bash
+
+
 airport-management.exe
 
 
