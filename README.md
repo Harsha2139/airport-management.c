@@ -123,20 +123,72 @@ gcc airport.c -o airport
 6. Search Flight
 7. Show Passengers
 8. Exit
+1. Add Flight
+Input: 1
 
-Enter choice: 1
-Enter Flight Number: 101
-Enter Destination: Delhi
-Enter Seats: 5
-Flight Added Successfully!
+Enter Flight ID: AI-101
 
-Enter choice: 3
-Enter Passenger Name: Rahul
-Enter Flight Number: 101
-Ticket Booked Successfully!
+Enter Destination: New York
 
-Enter choice: 7
-Name: Rahul | Flight No: 101
+Enter Total Seats: 150
+
+Output: ✅ Flight AI-101 added successfully!
+
+2. Display Flights
+Input: 2
+
+Current Flights: > | Flight ID | Destination | Available Seats | Status |
+| :--- | :--- | :--- | :--- |
+| AI-101 | New York | 150 | On Time |
+| EK-202 | Dubai | 85 | Delayed |
+
+3. Book Ticket
+Input: 3
+
+Enter Flight ID to book: AI-101
+
+Enter Passenger Name: Alex Smith
+
+Output: 🎟️ Ticket booked! Seat confirmed for Alex Smith on AI-101.
+
+4. Cancel Ticket
+Input: 4
+
+Enter Ticket/Passenger ID: Alex Smith
+
+Output: 🗑️ Ticket for Alex Smith has been cancelled. Seat is now available.
+
+5. Update Flight
+Input: 5
+
+Enter Flight ID to update: EK-202
+
+New Status: Boarding
+
+Output: 🔄 Flight EK-202 status updated to: Boarding.
+
+6. Search Flight
+Input: 6
+
+Enter Destination to search: Dubai
+
+Result Found: EK-202 | Destination: Dubai | Seats: 85 | Status: Boarding
+
+7. Show Passengers
+Input: 7
+
+Enter Flight ID: AI-101
+
+Passenger List for AI-101: > 1. Alex Smith
+
+2. Jordan Lee
+
+3. Sam Rivera
+
+8. Exit
+Input: 8
+
+Output: Exiting System... Have a safe flight! 👋
 ```
 
 ---
@@ -158,10 +210,21 @@ This project demonstrates how linked lists can be used to efficiently manage dyn
 
 Save your program as:
 
-airport.c
+airport management.c
 
 ✅ Step 2: Compile the program
-gcc airport.c -o project
+gcc airport management.c -o project
 
 ✅ Step 3: Run the program
 ./project
+2. Running the Program
+Once it compiles without errors, you can run the executable:
+
+On Linux/macOS:
+
+Bash
+./airport-management
+On Windows:
+
+Bash
+airport-management.exe
